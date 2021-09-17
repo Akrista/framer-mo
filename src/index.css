@@ -1,4 +1,5 @@
 @import-normalize;
+/* Pro Tip aplica normalize.css para estilizado constante. Y debajo coloque el css creado por FireShip.io*/
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap);
 
 :root {
@@ -97,11 +98,13 @@ button {
 }
 
 .backdrop {
+  /* Al backdrop le damos una posicion absoluta, en la esquina superior izquierda con una altura y anchura de 100%. */
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
+  /* Pro Tip, para crear colores transparentes en hexadecimal añadiendo dos caracteres adicionales al final para agregarle opacidad */
   background: #000000e1;
   display: flex;
   align-items: center;
