@@ -2,6 +2,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import Modal from "./components/Modal";
 
+// Recuerda que para iniciar tus proyectos en React debes usar 'npm install' y 'yarn start' (suelo tener problemas siempre con npm asi que siempre recurro a yarn). En este proyecto debes utilizar 'npm i framer-motion'
+
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
 
