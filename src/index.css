@@ -114,7 +114,7 @@ button {
 .modal {
   width: clamp(50%, 700px, 90%);
   height: min(50%, 300px);
-  /* Pro Tip usa clamp en vez de media queries, */
+  /* Pro Tip usa clamp en vez de media queries, clamp en este caso va a tratar de colocar el ancho en 700px, pero si es muy pequeño lo va a ampliar un 90% o si es muy grande, reducir a 50%. Este truco es muy eficaz en CSS ya que, de no poder usarlo tendrias que implementar media queries que requeririan mas codigo*/
   margin: auto;
   padding: 0 2rem;
   border-radius: 12px;

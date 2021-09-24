@@ -6,6 +6,7 @@ import Modal from "./components/Modal";
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
+  // Esta constante se encarga de identificar el estado para la apertura y cierre del Modal.
 
   const close = () => setModalOpen(false);
   const open = () => setModalOpen(true);
@@ -21,6 +22,7 @@ function App() {
       >
         Abrir Modal
       </motion.button>
+      {/* AnimatePresence, se encarga de que cuando el Modal se remueva del DOM antes de que la animación termine */}
       <AnimatePresence
         initial={false}
         exitBeforeEnter={true}
